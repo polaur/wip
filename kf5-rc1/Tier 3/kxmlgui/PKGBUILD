@@ -11,7 +11,7 @@ pkgdesc='User configurable main windows'
 arch=('x86_64')
 url='https://community.kde.org/Frameworks'
 license=('LGPL')
-depends=('kglobalaccel' 'ktextwidgets' 'attica-qt5')
+depends=('kglobalaccel' 'ktextwidgets' 'attica')
 makedepends=('extra-cmake-modules' 'python' 'mesa' 'doxygen' 'qt5-tools')
 groups=('kf5')
 source=("$pkgname-5.44.0.rc1::git://anongit.kde.org/$pkgname.git#tag=v5.44.0-rc1")

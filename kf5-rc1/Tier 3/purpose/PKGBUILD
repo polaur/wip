@@ -10,7 +10,8 @@ pkgdesc="Framework for providing abstractions to get the developer's purposes fu
 arch=(x86_64)
 url='https://community.kde.org/Frameworks'
 license=(LGPL)
-depends=(kaccounts-integration accounts-qml-module hicolor-icon-theme)
+depends=(kaccounts-integration accounts-qml-module hicolor-icon-theme 
+kcoreaddons kconfig ki18n)
 makedepends=(extra-cmake-modules intltool python)
 optdepends=('kdeconnect: sharing to smartphone via KDE Connect')
 groups=(kf5)
