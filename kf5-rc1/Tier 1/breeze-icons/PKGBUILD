@@ -6,8 +6,8 @@
 # Contributor: Antonio Rojas
 
 pkgname=breeze-icons
-pkgver=5.44.0.rc1
-pkgrel=1
+pkgver=5.44.0
+pkgrel=0
 pkgdesc='Breeze icon themes'
 arch=('any')
 url='https://community.kde.org/Frameworks'

@@ -6,7 +6,7 @@
 
 pkgname=plasma-framework
 pkgver=5.44.0
-pkgrel=1
+pkgrel=0
 pkgdesc='Plasma library and runtime components based upon KF5 and Qt5'
 arch=('x86_64')
 url='https://community.kde.org/Frameworks'

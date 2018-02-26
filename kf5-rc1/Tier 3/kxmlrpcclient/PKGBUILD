@@ -5,8 +5,8 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=kxmlrpcclient
-pkgver=5.44.0.rc1
-pkgrel=1
+pkgver=5.44.0
+pkgrel=0
 pkgdesc="XML-RPC client library for KDE"
 arch=('x86_64')
 url="https://projects.kde.org/projects/kde/pim/kxmlrpcclient"

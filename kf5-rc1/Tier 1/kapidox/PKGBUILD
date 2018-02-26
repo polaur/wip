@@ -5,8 +5,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kapidox
-pkgver=5.44.0.rc1
-pkgrel=1
+pkgver=5.44.0
+pkgrel=0
 pkgdesc='Frameworks API Documentation Tools'
 arch=('any')
 url='https://community.kde.org/Frameworks'
