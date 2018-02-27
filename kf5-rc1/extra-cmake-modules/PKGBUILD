@@ -7,7 +7,7 @@
 
 pkgname=extra-cmake-modules
 pkgver=5.44.0
-pkgrel=1
+pkgrel=0
 pkgdesc='Extra modules and scripts for CMake'
 arch=('any')
 url='https://community.kde.org/Frameworks'
