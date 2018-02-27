@@ -16,7 +16,7 @@ makedepends=('extra-cmake-modules' 'qt5-tools' 'hunspell' 'aspell' 'hspell' 'lib
 optdepends=('hunspell: spell checking via hunspell' 'aspell: spell checking via aspell' 
             'hspell: spell checking for Hebrew' 'libvoikko: Finnish support via Voikko')
 groups=('kf5')
-source=("$pkgname-5.44.0.rc1::git://anongit.kde.org/$pkgname.git#tag=v5.44.0-rc1")
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')
 
 prepare() {

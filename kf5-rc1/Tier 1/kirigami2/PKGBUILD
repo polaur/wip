@@ -13,7 +13,7 @@ license=(LGPL)
 groups=(kf5)
 depends=(qt5-quickcontrols2 qt5-graphicaleffects)
 makedepends=(extra-cmake-modules qt5-tools plasma-framework)
-source=("$pkgname-5.44.0.rc1::git://anongit.kde.org/$pkgname.git#tag=v5.44.0-rc1")
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')
 
 prepare() {

@@ -15,7 +15,7 @@ depends=('kcoreaddons' 'kwindowsystem')
 makedepends=('extra-cmake-modules' 'mesa' 'doxygen' 'qt5-tools')
 optdepends=('drkonqi: KDE crash handler application')
 groups=('kf5')
-source=("$pkgname-5.44.0.rc1::git://anongit.kde.org/$pkgname.git#tag=v5.44.0-rc1")
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')
 
 prepare() {

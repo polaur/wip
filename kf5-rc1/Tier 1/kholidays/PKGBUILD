@@ -15,7 +15,7 @@ license=(LGPL)
 depends=(qt5-declarative)
 makedepends=(extra-cmake-modules qt5-declarative qt5-tools)
 optdepends=('qt5-declarative: QML bindings')
-source=("$pkgname-5.44.0.rc1::git://anongit.kde.org/$pkgname.git#tag=v5.44.0-rc1")
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')
 
 prepare() {

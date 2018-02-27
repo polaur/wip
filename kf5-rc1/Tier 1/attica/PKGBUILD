@@ -6,7 +6,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=attica
-pkgver=5.44.0
+pkgver=5.44rc
+_tagver-v5.44.0-rc1
 pkgrel=0
 arch=(x86_64)
 pkgdesc='Qt library that implements the Open Collaboration Services API'
@@ -18,7 +19,7 @@ groups=(kf5)
 conflicts=(attica-qt5)
 provides=(attica-qt5)
 replaces=(attica-qt5)
-source=("$pkgname-5.44.0.rc1::git://anongit.kde.org/$pkgname.git#tag=v5.44.0-rc1")
+source=("$pkgname-${_tagver}::git://anongit.kde.org/$pkgname.git#tag=${_tagver}")
 sha256sums=('SKIP')
 
 prepare() {
@@ -27,7 +28,7 @@ prepare() {
 
 build() {
   cd build
-  cmake ../$pkgname-$pkgver \
+  cmake ../$pkgname-$_tagver \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DCMAKE_INSTALL_LIBDIR=lib \

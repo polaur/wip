@@ -6,15 +6,16 @@
 # Contributor: Antonio Rojas
 
 pkgname=breeze-icons
-pkgver=5.44.0
-pkgrel=0
+pkgver=5.44rc.0
+_tagver=v5.44.0-rc1
+pkgrel=1
 pkgdesc='Breeze icon themes'
 arch=('any')
 url='https://community.kde.org/Frameworks'
 license=('LGPL')
 groups=('kf5')
 makedepends=('extra-cmake-modules' 'qt5-base')
-source=("$pkgname-5.44.0.rc1::git://anongit.kde.org/$pkgname.git#tag=v5.44.0-rc1")
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')
 
 prepare() {
@@ -23,7 +24,7 @@ prepare() {
 
 build() {
   cd build
-  cmake ../${pkgname}-${pkgver} \
+  cmake ../${pkgname}-${_tagver} \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DBINARY_ICONS_RESOURCE=ON \

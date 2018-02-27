@@ -15,7 +15,7 @@ depends=('karchive' 'docbook-xsl')
 makedepends=('extra-cmake-modules' 'ki18n' 'python' 'perl-uri')
 groups=('kf5')
 options=('staticlibs')
-source=("$pkgname-5.44.0.rc1::git://anongit.kde.org/$pkgname.git#tag=v5.44.0-rc1")
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')
 
 prepare() {

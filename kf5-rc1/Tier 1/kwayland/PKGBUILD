@@ -15,7 +15,7 @@ license=('LGPL')
 depends=('qt5-base')
 makedepends=('extra-cmake-modules' 'doxygen' 'qt5-tools')
 groups=('kf5')
-source=("$pkgname-5.44.0.rc1::git://anongit.kde.org/$pkgname.git#tag=v5.44.0-rc1")
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')
 
 prepare() {
