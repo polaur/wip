@@ -5,8 +5,9 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=kxmlrpcclient
-pkgver=5.44.0
-pkgrel=0
+pkgver=5.44rc
+_tagver=5.44.0.rc1
+pkgrel=1
 pkgdesc="XML-RPC client library for KDE"
 arch=('x86_64')
 url="https://projects.kde.org/projects/kde/pim/kxmlrpcclient"
@@ -14,7 +15,7 @@ license=('LGPL')
 depends=('kio')
 makedepends=('extra-cmake-modules' 'python' 'doxygen' 'qt5-tools')
 groups=('kf5')
-source=("$pkgname-5.44.0.rc1::git://anongit.kde.org/$pkgname.git#tag=v5.44.0-rc1")
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')
 
 prepare() {
@@ -23,7 +24,7 @@ prepare() {
 
 build() {
   cd build
-  cmake ../$pkgname-$pkgver \
+  cmake ../$pkgname-$_tagver \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DCMAKE_INSTALL_LIBDIR=lib \
