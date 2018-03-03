@@ -5,7 +5,7 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=krunner
-pkgver=5.44rc
+pkgver=5.45rc
 _tagver=5.44.0.rc1
 pkgrel=1
 pkgdesc='Framework for providing different actions given a string query'

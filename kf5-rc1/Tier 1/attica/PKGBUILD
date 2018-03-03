@@ -6,7 +6,7 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=attica
-pkgver=5.44rc
+pkgver=5.45rc
 _tagver-v5.44.0-rc1
 pkgrel=0
 arch=(x86_64)
