@@ -6,7 +6,7 @@
 
 pkgname=kxmlrpcclient
 pkgver=5.44rc
-_tagver=5.44.0.rc1
+_tagver=v5.44.0-rc1
 pkgrel=1
 pkgdesc="XML-RPC client library for KDE"
 arch=('x86_64')
