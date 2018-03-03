@@ -4,6 +4,7 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=kirigami2
+_pkgname=kirigami
 pkgver=5.44rc
 _tagver=v5.44.0-rc1
 pkgrel=1
@@ -14,7 +15,7 @@ license=(LGPL)
 groups=(kf5)
 depends=(qt5-quickcontrols2 qt5-graphicaleffects)
 makedepends=(extra-cmake-modules qt5-tools plasma-framework)
-source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
+source=("$pkgname-$_tagver::git://anongit.kde.org/$_pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')
 
 prepare() {
