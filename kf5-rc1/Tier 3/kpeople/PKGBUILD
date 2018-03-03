@@ -6,7 +6,7 @@
 
 pkgname=kpeople
 pkgver=5.44rc
-_tagver=5.44.0.rc1
+_tagver=v5.44.0-rc1
 pkgrel=1
 pkgdesc='A library that provides access to all contacts and the people who hold them'
 arch=(x86_64)
