@@ -100,7 +100,7 @@ kinit (**kio, kdoctools)
 knewstuff (**kio, ew. kirigami2)
 knotifyconfig (**kio)
 kxmlrpcclient (**kio)
-purpose (ki18n, kconfig, kcoreaddons) UWAGA wpisuję tu nieco na wyrost - purpose ma być zależne od KIO, ale jeszcze nie jest (5.43). PKGBUILD nie ma jeszcze KIO - trzeba to sprawdzać.
+purpose (ki18n, kconfig, kcoreaddons, **kio)
 
 8. Zależne od zależności KIO
 kcmutils (**kdeclarative)
