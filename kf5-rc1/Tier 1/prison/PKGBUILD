@@ -13,7 +13,7 @@ pkgdesc="A barcode API to produce QRCode barcodes and DataMatrix barcodes"
 arch=(x86_64)
 url='https://community.kde.org/Frameworks'
 license=(GPL)
-depends=(qt5-base libdmtx qrencode)
+depends=(libdmtx qrencode qt5-declarative)
 makedepends=(extra-cmake-modules doxygen qt5-tools)
 groups=(kf5)
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
