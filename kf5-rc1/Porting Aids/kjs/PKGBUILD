@@ -4,16 +4,16 @@
 # Maintainer: Felix Yan <felixonmars@archlinux.org>
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
-pkgname=kross
+pkgname=kjs
 pkgver=5.44rc
 _tagver=v5.44.0-rc1
 pkgrel=1
-pkgdesc='Multi-language application scripting'
+pkgdesc='Support for JS scripting in applications'
 arch=('x86_64')
 url='https://community.kde.org/Frameworks'
 license=('LGPL')
-depends=('kparts')
-makedepends=('extra-cmake-modules' 'kdoctools' 'qt5-tools' 'python')
+depends=('qt5-base')
+makedepends=('extra-cmake-modules' 'kdoctools' 'git')
 groups=('kf5-aids')
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')
