@@ -1,2 +1,2 @@
 #!/bin/bash
-for i in */.git; do ( echo $i; cd $i/..; echo "Updating a $i"; git pull; ); done
+for i in */.git; do ( echo "Updating $i"; cd $i/..; git pull; ); done
