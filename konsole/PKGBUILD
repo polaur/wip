@@ -53,21 +53,36 @@ prepare() {
 
   cd $pkgname-$pkgver
   
-  msg "CCBUG 390736 patch"
-    patch -p1 -i ../ccbug-390736.patch
-  
-  
-  msg "kdebug 384620 patch"
-    patch -p1 -i ../kdebug-384620.patch # See: https://bugs.kde.org/show_bug.cgi?id=384620
   
   msg "kdebug 338997 patch"
     patch -p1 -i ../kdebug-338997.patch # See: https://bugs.kde.org/show_bug.cgi?id=338997
+
+  msg "kdebug 384620 patch"
+    patch -p1 -i ../kdebug-384620.patch # See: https://bugs.kde.org/show_bug.cgi?id=384620
+  
+  msg "kdebug 386762 patch"
+    patch -p1 -i ../kdebug-386762.patch # See: https://bugs.kde.org/show_bug.cgi?id=386762 fixed in 18.04
+
+  msg "kdebug 343071 patch"
+    patch -p1 -i ../kdebug-343071.patch # See: https://bugs.kde.org/show_bug.cgi?id=343071
+  
+  msg "kdebug 389163 patch"
+    patch -p1 -i ../kdebug-389163.patch # See: https://bugs.kde.org/show_bug.cgi?id=389163
+  
+  msg "kdebug 340281 patch"
+    patch -p1 -i ../kdebug-340281.patch # See: https://bugs.kde.org/show_bug.cgi?id=340281
+
+  msg "kdebug 387397 patch"
+    patch -p1 -i ../kdebug-387397.patch # See: https://bugs.kde.org/show.bug.cgi?id=387397 fixed in 18.04
   
   msg "kdebug 353382 patch"
     patch -p1 -i ../kdebug-353382.patch # See: https://bugs.kde.org/show_bug.cgi?id=353382
   
-  msg "kdebug 386762 patch"
-    patch -p1 -i ../kdebug-386762.patch # See: https://bugs.kde.org/show_bug.cgi?id=386762 fixed in 18.04
+  msg "kdebug 372348 patch"
+    patch -p1 -i ../kdebug-372348.patch # See: https://bugs.kde.org/show_bug.cgi?id=372348
+  
+  msg "CCBUG 390736 patch"
+    patch -p1 -i ../ccbug-390736.patch
   
   msg "kdebug-355106 patch" # See: https://bugs.kde.org/show_bug.cgi?id=355106 Fixed in 18.04.0
     patch -p1 -i ../kdebug-355106.patch
@@ -76,23 +91,7 @@ prepare() {
     patch -p1 -i ../kdebug-328287.patch
   
   msg "kdebug 386264 patch" # See: https://bugs.kde.org/show_bug.cgi?id-386264 Fixed in 18.04.0
-    patch -p1 -i ../kdebug-386264.patch
-
-  msg "kdebug 340281 patch"
-    patch -p1 -i ../kdebug-340281.patch # See: https://bugs.kde.org/show_bug.cgi?id=340281
-
-  msg "kdebug 389163 patch"
-    patch -p1 -i ../kdebug-389163.patch # See: https://bugs.kde.org/show_bug.cgi?id=389163
-  
-  msg "kdebug 372348 patch"
-    patch -p1 -i ../kdebug-372348.patch # See: https://bugs.kde.org/show_bug.cgi?id=372348
-  
-  msg "kdebug 387397 patch"
-    patch -p1 -i ../kdebug-387397.patch # See: https://bugs.kde.org/show.bug.cgi?id=387397 fixed in 18.04
-  
-  msg "kdebug 343071 patch"
-    patch -p1 -i ../kdebug-343071.patch # See: https://bugs.kde.org/show_bug.cgi?id=343071
-    
+    patch -p1 -i ../kdebug-386264.patch   
 }
 
 build() {
