@@ -30,6 +30,9 @@ kdebug-355106.patch::"https://cgit.kde.org/konsole.git/patch/?id=17c77a87"
 kdebug-328287.patch::"https://cgit.kde.org/konsole.git/patch/?id=7934bcff"
 kdebug-386264.patch::"https://cgit.kde.org/konsole.git/patch/?id=9db70622"
 cgit-2e86be0.patch::"https://cgit.kde.org/konsole.git/patch/?id=2e86be0"
+cgit-881eb74.patch::"https://cgit.kde.org/konsole.git/patch/?id=881eb74"
+kdebug-369481.patch::"https://cgit.kde.org/konsole.git/patch/?id=0d95c7f"
+cgit-14589ca.patch::"https://cgit.kde.org/konsole.git/patch/?id=14589ca"
 )
 sha256sums=('fa0997c14a96252177e4808636ec43509eadb1482d54bb8a86b85810283f6cbc'
             'SKIP'
@@ -46,7 +49,10 @@ sha256sums=('fa0997c14a96252177e4808636ec43509eadb1482d54bb8a86b85810283f6cbc'
             'a5ad35f2f57faee19c9401c0dd2f63a1fe7ac1f1ea902ecbda8ac3cad345ca6e'
             'e048cdfd9fb5cccbbe90108a6330326cc1dfe1a1264916ddacca88b13c8de86b'
             '195105842e16188c671e0012e6f95a248f66484eb0381d3f0a26ba0669d78084'
-            'a68bea75ae92ade930dbd9d32b51617443782ab15ee84b5ab7fd7c1d5457b0c7')
+            'a68bea75ae92ade930dbd9d32b51617443782ab15ee84b5ab7fd7c1d5457b0c7'
+            '56ebc46d5d7fbc78a4de813199232631093ff48156222709611cfbc27d21cef2'
+            'ee2217c8f4a49fc8c0f0f249daa601a3b05f6d7e2f0f7c26c0071bd975bf7358'
+            'b6cb7b6d072396d44de0f097a27ae1546602730505c869f1d922c54d8df5f66a')
 validpgpkeys=(CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7  # Albert Astals Cid <aacid@kde.org>
               F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87) # Christoph Feck <cfeck@kde.org>
 
@@ -77,6 +83,15 @@ prepare() {
   msg "kdebug 340281 patch"
     patch -p1 -i ../kdebug-340281.patch # See: https://bugs.kde.org/show_bug.cgi?id=340281
 
+  msg "kdebug 369481 patch"
+    patch -p1 -i ../kdebug-369481.patch # See https://bugs.kde.org/show_bug.cgi?id=369481 fixed in 18.04
+  
+  msg "cgit 881eb74 patch"
+    patch -p1 -i ../cgit-881eb74.patch # See https://cgit.kde.org/konsole.git/patch/?id=881eb74
+  
+  msg "cgit 14589ca patch"
+    patch -p1 -i ../cgit-14589ca.patch # See https://cgit.kde.org/konsole.git/patch/?id=14589ca
+  
   msg "kdebug 387397 patch"
     patch -p1 -i ../kdebug-387397.patch # See: https://bugs.kde.org/show.bug.cgi?id=387397 fixed in 18.04
   
