@@ -29,6 +29,7 @@ ccbug-390736.patch::"https://cgit.kde.org/konsole.git/patch/?id=b85c469ef"
 kdebug-355106.patch::"https://cgit.kde.org/konsole.git/patch/?id=17c77a87"
 kdebug-328287.patch::"https://cgit.kde.org/konsole.git/patch/?id=7934bcff"
 kdebug-386264.patch::"https://cgit.kde.org/konsole.git/patch/?id=9db70622"
+cgit-2e86be0.patch::"https://cgit.kde.org/konsole.git/patch/?id=2e86be0"
 )
 sha256sums=('fa0997c14a96252177e4808636ec43509eadb1482d54bb8a86b85810283f6cbc'
             'SKIP'
@@ -44,7 +45,8 @@ sha256sums=('fa0997c14a96252177e4808636ec43509eadb1482d54bb8a86b85810283f6cbc'
             '5c1e42dbef8b60ee0e95229162507903b877b438c482e094a312e4cb265fb26a'
             'a5ad35f2f57faee19c9401c0dd2f63a1fe7ac1f1ea902ecbda8ac3cad345ca6e'
             'e048cdfd9fb5cccbbe90108a6330326cc1dfe1a1264916ddacca88b13c8de86b'
-            '195105842e16188c671e0012e6f95a248f66484eb0381d3f0a26ba0669d78084')
+            '195105842e16188c671e0012e6f95a248f66484eb0381d3f0a26ba0669d78084'
+            'a68bea75ae92ade930dbd9d32b51617443782ab15ee84b5ab7fd7c1d5457b0c7')
 validpgpkeys=(CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7  # Albert Astals Cid <aacid@kde.org>
               F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87) # Christoph Feck <cfeck@kde.org>
 
@@ -65,6 +67,9 @@ prepare() {
 
   msg "kdebug 343071 patch"
     patch -p1 -i ../kdebug-343071.patch # See: https://bugs.kde.org/show_bug.cgi?id=343071
+  
+  msg "cgit 2e86be0 patch"
+    patch -p1 -i ../cgit-2e86be0.patch # See https://phabricator.kde.org/D8381 and https://phabricator.kde.org/D8417
   
   msg "kdebug 389163 patch"
     patch -p1 -i ../kdebug-389163.patch # See: https://bugs.kde.org/show_bug.cgi?id=389163
