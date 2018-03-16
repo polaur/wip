@@ -33,6 +33,8 @@ cgit-2e86be0.patch::"https://cgit.kde.org/konsole.git/patch/?id=2e86be0"
 cgit-881eb74.patch::"https://cgit.kde.org/konsole.git/patch/?id=881eb74"
 kdebug-369481.patch::"https://cgit.kde.org/konsole.git/patch/?id=0d95c7f"
 cgit-14589ca.patch::"https://cgit.kde.org/konsole.git/patch/?id=14589ca"
+cgit-bed548e.patch::"https://cgit.kde.org/konsole.git/patch/?id=bed548e"
+cgit-2ffcca1.patch::"https://cgit.kde.org/konsole.git/patch/?id=2ffcca1"
 )
 sha256sums=('fa0997c14a96252177e4808636ec43509eadb1482d54bb8a86b85810283f6cbc'
             'SKIP'
@@ -52,7 +54,9 @@ sha256sums=('fa0997c14a96252177e4808636ec43509eadb1482d54bb8a86b85810283f6cbc'
             'a68bea75ae92ade930dbd9d32b51617443782ab15ee84b5ab7fd7c1d5457b0c7'
             '56ebc46d5d7fbc78a4de813199232631093ff48156222709611cfbc27d21cef2'
             'ee2217c8f4a49fc8c0f0f249daa601a3b05f6d7e2f0f7c26c0071bd975bf7358'
-            'b6cb7b6d072396d44de0f097a27ae1546602730505c869f1d922c54d8df5f66a')
+            'b6cb7b6d072396d44de0f097a27ae1546602730505c869f1d922c54d8df5f66a'
+            '3f9f5f0c0d3df09432b5ccf80496c07069f9d78fbaf262d69ed6cfdc9a158fe6'
+            'af52aa81411395f7aec9621ff512d69d5cd9faad4ab9bf1f238f42fad8dd007d')
 validpgpkeys=(CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7  # Albert Astals Cid <aacid@kde.org>
               F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87) # Christoph Feck <cfeck@kde.org>
 
@@ -103,6 +107,12 @@ prepare() {
   
   msg "CCBUG 390736 patch"
     patch -p1 -i ../ccbug-390736.patch
+  
+  msg "cgit 2ffcca1 patch"
+    patch -p1 -i ../cgit-2ffcca1.patch # See: https://cgit.kde.org/konsole.git/patch/?id=2ffcca1
+  
+  msg "cgit bed548e patch"
+    patch -p1 -i ../cgit-bed548e.patch # See: https://cgit.kde.org/konsole.git/patch/?id=bed548e
   
   msg "kdebug-355106 patch" # See: https://bugs.kde.org/show_bug.cgi?id=355106 Fixed in 18.04.0
     patch -p1 -i ../kdebug-355106.patch
