@@ -20,14 +20,14 @@ pkgver() {
 
 package_ttf-webos-fonts-miso-git() {
   cd $_pkgbase/Miso
-  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$_pkgname/LICENSE"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/ttf-webos-fonts-miso-git/LICENSE"
   install -d "$pkgdir/usr/share/fonts/TTF"
   install -m644 *.ttf "$pkgdir/usr/share/fonts/TTF"
 }
 
 package_ttf-webos-fonts-museo-git() {
   cd $_pkgbase/Museo
-  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$_pkgname/LICENSE"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/ttf-webos-fonts-museo-git/LICENSE"
   install -d "$pkgdir/usr/share/fonts/TTF"
   install -m644 *.ttf "$pkgdir/usr/share/fonts/TTF"
 } 
