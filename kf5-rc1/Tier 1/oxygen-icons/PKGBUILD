@@ -8,8 +8,8 @@
 pkgbase=oxygen-icons
 pkgname=('oxygen-icons'
          'oxygen-icons-svg')
-pkgver=5.45rc
-_tagver=v5.45.0-rc1
+pkgver=5.46rc
+_tagver=v5.46.0-rc1
 epoch=1
 pkgrel=1
 pkgdesc="The Oxygen Icon Theme"
@@ -17,7 +17,7 @@ arch=('any')
 url='https://community.kde.org/Frameworks'
 license=('LGPL')
 makedepends=('extra-cmake-modules' 'qt5-base' 'git')
-source=("$pkgname-$_tagver::git://anongit.kde.org/${pkgname}5.git#tag=${_tagver}")
+source=("$pkgbase-$_tagver::git://anongit.kde.org/${pkgname}5.git#tag=${_tagver}")
 sha256sums=('SKIP')
 
 prepare() {
@@ -26,7 +26,7 @@ prepare() {
 
 build() {
   cd build
-  cmake ../${pkgbase}5-${_tagver} \
+  cmake ../${pkgbase}-${_tagver} \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=/usr
   make
@@ -42,7 +42,7 @@ package_oxygen-icons() {
 package_oxygen-icons-svg() {
   pkgdesc="The Oxygen Icon Theme (Scalable Vector Graphics)"
 
-  cd ${pkgbase}5-${_tagver}
+  cd ${pkgbase}-${_tagver}
   find scalable -type f ! -name '*.sh' -exec \
     install -D -m644 "{}" "${pkgdir}/usr/share/icons/oxygen/{}" \;
 }
