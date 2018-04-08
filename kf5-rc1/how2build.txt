@@ -93,7 +93,6 @@ kio (solid, kjobwidgets, kbookmarks, kwallet, kdoctools)
 
 7. Paczki zależne od KIO bezpośrednio
 kdeclarative (**kio, kpackage)
-kdesignerplugin (**kio, kplotting)
 baloo (**kio, kfilemetadata, kidletime)
 kparts (**kio)
 kinit (**kio, kdoctools)
@@ -109,7 +108,10 @@ kdewebkit (**kparts)
 ktexteditor (**kparts, syntax-highlighting)
 plasma-framework (**kdeclarative, kactivities, kwayland, kirigami2)
 
-9. Zależne od plasma-framework
+9. Zależne od kdewebkit (makedepends)
+kdesignerplugin (**kio, kpackage)
+
+10. Zależne od plasma-framework
 krunner (**plasma-framework, threadweaver, kdoctools)
 
 Tier 4 - Zależne od Tier 3
