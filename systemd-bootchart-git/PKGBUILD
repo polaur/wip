@@ -1,9 +1,10 @@
 # Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# Maintainer: Piotr Górski <lucjan.lucjanov@gmail.com>
 
 pkgname=systemd-bootchart-git
 _pkgname=systemd-bootchart
 pkgver=233.1
-pkgrel=1
+pkgrel=2
 arch=('x86_64')
 pkgdesc="Boot performance graphing tool"
 license=('GPL2' 'LGPL2.1')
@@ -22,7 +23,7 @@ pkgver() {
 }
 
 build() {
-    cd "$srcdir/$_pkgname"
+     cd "$_pkgname"
     ./autogen.sh
     ./configure CFLAGS='-g -O0 -ftrapv' --sysconfdir=/etc --localstatedir=/var --libdir=/usr/lib
     }
