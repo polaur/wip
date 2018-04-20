@@ -1,0 +1,42 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+ 
+pkgname=vvave-git
+pkgver=r194.753b88e
+pkgrel=1
+pkgdesc='Vvave Media Player'
+arch=('x86_64')
+url="https://cgit.kde.org/vvave.git/"
+license=('GPL3')
+depends=('ki18n' 'knotifications' 'qt5-webengine' 'taglib' 'qt5-websockets')
+makedepends=('git' 'extra-cmake-modules')
+#optdepends=('youtube-dl: youtube support')
+provides=("${pkgname%-*}")
+conflicts=()
+replaces=()
+source=('git+https://anongit.kde.org/vvave.git')
+sha256sums=('SKIP')
+
+pkgver() {
+  cd ${pkgname%-*}
+  printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+
+prepare() {
+	mkdir -p build
+	}
+
+build() {
+  cd build
+  cmake ../${pkgname%-*} \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	 -DLIB_INSTALL_DIR=lib \
+	 -DKDE_INSTALL_PLUGINDIR=/usr/lib/qt/plugins \
+    -DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+    -DBUILD_TESTING=OFF
+  make
+}
+ 
+package() {
+  cd build
+  make DESTDIR=${pkgdir} install
+  }
