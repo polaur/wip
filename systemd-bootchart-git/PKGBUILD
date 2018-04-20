@@ -9,7 +9,7 @@ pkgdesc="Boot performance graphing tool"
 license=('GPL2' 'LGPL2.1')
 url="https://github.com/davidedmundson/systemd-bootchart"
 depends=(libsystemd)
-makedepends=(git)
+makedepends=(git intltool)
 source=('git+https://github.com/davidedmundson/systemd-bootchart')
 sha512sums=('SKIP')
 
