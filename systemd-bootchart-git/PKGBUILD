@@ -1,0 +1,33 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+
+pkgname=systemd-bootchart-git
+_pkgname=systemd-bootchart
+pkgver=233.1
+pkgrel=1
+arch=('x86_64')
+pkgdesc="Boot performance graphing tool"
+license=('GPL2' 'LGPL2.1')
+url="https://github.com/davidedmundson/systemd-bootchart"
+depends=(libsystemd)
+makedepends=(git)
+source=('git+https://github.com/davidedmundson/systemd-bootchart')
+sha512sums=('SKIP')
+
+pkgver() {
+  cd "$_pkgname"
+
+  version="$(git describe --abbrev=0 --tags)"
+  count="$(git rev-list --count ${version}..)"
+  printf '%s.%s' "${version#v}" "${count}"
+}
+
+build() {
+    cd "$srcdir/$_pkgname"
+    ./autogen.sh
+    ./configure CFLAGS='-g -O0 -ftrapv' --sysconfdir=/etc --localstatedir=/var --libdir=/usr/lib
+    }
+
+package() {
+    cd "$srcdir/$_pkgname"
+    make DESTDIR=$pkgdir install
+    }
