@@ -3,7 +3,7 @@ post_install() {
 	/opt/brother/Printers/mfct910dw/inf/setupPrintcapij mfct910dw -i
 	
 	# cupswrapper
-	/opt/brother/Printers/dw/cupswrapper/cupswrappermfct910dw
+	/opt/brother/Printers/mfct910dw/cupswrapper/cupswrappermfct910dw
 	
 	systemctl restart org.cups.cupsd
 }
