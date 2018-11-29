@@ -1,0 +1,31 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+
+_pkgname=talking-clock
+pkgname=talking-clock2-git
+pkgver=16
+pkgrel=1
+pkgdesc="Simple bash script informing in human voice about current time"
+arch=('any')
+url="https://github.com/pikkewyn/$_pkgname"
+license=('GPL')
+depends=('bash' 'alsa-utils')
+makedepends=('git')
+provides=("$_pkgname")
+conflicts=("$_pkgname")
+install=talking-clock2.install
+source=("git+${url}.git")
+md5sums=('SKIP')
+
+pkgver()
+{
+  cd "$_pkgname"
+  git shortlog | head -n 1 | tr -Cd "[:digit:]"
+}
+ 
+package() {
+    cd "${srcdir}"
+    install -D ${srcdir}/${_pkgname}/source/talking-clock ${pkgdir}/usr/bin/talking-clock2
+    mkdir -p ${pkgdir}/usr/share/${_pkgname}2
+    install -D -m 444 ${srcdir}/${_pkgname}/source/sound/*.wav ${pkgdir}/usr/share/${_pkgname}2
+}
+

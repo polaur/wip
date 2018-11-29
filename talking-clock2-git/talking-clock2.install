@@ -1,0 +1,9 @@
+post_install() {
+    echo "You can add /usr/bin/talking-clock2 to .xprofile to have it starting with X server"
+}
+
+post_remove() {
+    rm -rf /usr/share/talking-clock2
+    rm -f /usr/bin/talking-clock2
+}
+
