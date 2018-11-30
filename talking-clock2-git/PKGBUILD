@@ -3,7 +3,7 @@
 _pkgname=talking-clock
 pkgname=talking-clock2-git
 pkgver=16
-pkgrel=1
+pkgrel=2
 pkgdesc="Simple bash script informing in human voice about current time"
 arch=('any')
 url="https://github.com/pikkewyn/$_pkgname"
@@ -25,7 +25,7 @@ pkgver()
 package() {
     cd "${srcdir}"
     install -D ${srcdir}/${_pkgname}/source/talking-clock ${pkgdir}/usr/bin/talking-clock2
-    mkdir -p ${pkgdir}/usr/share/${_pkgname}2
-    install -D -m 444 ${srcdir}/${_pkgname}/source/sound/*.wav ${pkgdir}/usr/share/${_pkgname}2
+    mkdir -p ${pkgdir}/usr/share/${_pkgname}
+    install -D -m 444 ${srcdir}/${_pkgname}/source/sound/*.wav ${pkgdir}/usr/share/${_pkgname}
 }
 
