@@ -1,7 +1,7 @@
 # Maintainer: pavbaranov <pavbaranov at gmail dot com>
 
 pkgname=draco
-pkgver=0.9.0.rc1
+pkgver=0.9.0.rc2
 pkgrel=1
 pkgfullname="${pkgname%-*}-${_pkgver}"
 pkgdesc="A Lightweight QT5 Desktop; Lumina DE fork"
@@ -26,8 +26,8 @@ optdepends=('xorg-xbacklight: required for changing screen brightness'
             )
 makedepends=('qt5-base' 'qt5-svg' 'qt5-tools')
 conflicts=("draco-de-git" "draco-desktop-git" "insight-fm")
-source=("https://github.com/rodlie/draco/archive/${pkgver%.*}_rc1.tar.gz")
-sha512sums=('4a890e3fd4eb9eede8ceb12ba9ee00fda30116e8e3bbb881822d983cfa7107a54ca67bb092c8d8ae645a8897626ad918b5e8d9fdba5a79fade44c466ff34905b')
+source=("https://github.com/rodlie/draco/archive/${pkgver%.*}_rc2.tar.gz")
+sha512sums=('7c339b5144d8f623a4ec07a4a50c74c62c025063e5ceeed30dab83253a2fcd56ccf2efca72b1ea0a5b1a4dc6efb851ea3d80a1960138f484d818ebdbe5bdf80d')
 
 prepare() {
     mkdir -p build
@@ -35,7 +35,7 @@ prepare() {
     
 build() {
     cd build
-    cmake ../$pkgname-${pkgver%.*}_rc1 \
+    cmake ../$pkgname-${pkgver%.*}_rc2 \
         -DCMAKE_INSTALL_PREFIX=/usr \
         -DCMAKE_INSTALL_LIBDIR=lib \
         -DUSE_XINPUT=Yes \
