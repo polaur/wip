@@ -8,6 +8,7 @@ arch=('x86_64')
 url='https://www.linux-apps.com/p/1132054/'
 license=('GPL3')
 depends=('qt5-base')
+makedepends=('qt5-tools')
 source=("https://bitbucket.org/admsasha/${pkgname}/downloads/${pkgname}-${pkgver}.tar.gz"
 "qnetstatview_pl.ts")
 sha256sums=('3780b8fbaa9651adde121372df4aa76f787114cc2c247c751ba08d1562517498'
