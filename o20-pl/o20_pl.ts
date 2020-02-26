@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
-<TS language="en" version="2.1">
+<TS version="2.1" language="pl">
 <context>
     <name>O20Gui</name>
     <message>
         <source>Word</source>
-        <translation>Słowo</translation>
+        <translation>Word</translation>
     </message>
     <message>
         <source>&lt;html>&lt;head/>&lt;body>&lt;p align="center">Word&lt;/p>&lt;/body>&lt;/html></source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html>&lt;head/>&lt;body>&lt;p align="center">Word&lt;/p>&lt;/body>&lt;/html></translation>
     </message>
     <message>
         <source>Home</source>
-        <translation type="unfinished"></translation>
+        <translation>Główna</translation>
     </message>
     <message>
         <source>New</source>
@@ -25,7 +25,7 @@
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcje</translation>
     </message>
     <message>
         <source>Back</source>
@@ -41,23 +41,23 @@
     </message>
     <message>
         <source>&lt;html>&lt;head/>&lt;body>&lt;p>Welcome.&lt;/p>&lt;/body>&lt;/html></source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html>&lt;head/>&lt;body>&lt;p>Witaj.&lt;/p>&lt;/body>&lt;/html></translation>
     </message>
     <message>
         <source>Save Pending</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisywanie w trakcie</translation>
     </message>
     <message>
         <source>  Click here to save this document.            </source>
-        <translation>Zachowaj dokument</translation>
+        <translation>  Zachowaj dokument            </translation>
     </message>
     <message>
         <source>  This document is ReadOnly.            </source>
-        <translation>Dokument wyłącznie do odczytu</translation>
+        <translation>  Dokument wyłącznie do odczytu            </translation>
     </message>
     <message>
         <source>  Spectrum is AutoSaving this document.            </source>
-        <translation type="unfinished"></translation>
+        <translation>  Spectrum automatycznie zapisuje ten dokument.            </translation>
     </message>
     <message>
         <source>Recent Files</source>
@@ -65,27 +65,27 @@
     </message>
     <message>
         <source>&lt;html>&lt;head/>&lt;body>&lt;p align="center">&lt;img src=":/icons/rebrand/ms-word.svg"/>&lt;/p>&lt;p align="center">You don't have any recent documents yet.&lt;/p>&lt;/body>&lt;/html></source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html>&lt;head/>&lt;body>&lt;p align="center">&lt;img src=":/icons/rebrand/ms-word.svg"/>&lt;/p>&lt;p align="center">Brak ostatnich dokumentów.&lt;/p>&lt;/body>&lt;/html></translation>
     </message>
     <message>
         <source> Documents/O20/Documents1.odt</source>
-        <translation type="unfinished"></translation>
+        <translation> Documents/O20/Documents1.odt</translation>
     </message>
     <message>
         <source> Documents/O20/Documents1.html</source>
-        <translation type="unfinished"></translation>
+        <translation>  Documents/O20/Documents1.html</translation>
     </message>
     <message>
         <source> Projects/o20coreapps/CMakeLists.txt</source>
-        <translation type="unfinished"></translation>
+        <translation> Projects/o20coreapps/CMakeLists.txt</translation>
     </message>
     <message>
         <source>Open Selected File</source>
-        <translation>Otwórz plik</translation>
+        <translation>Otwórz wybrany plik</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Remove From List</source>
@@ -93,15 +93,15 @@
     </message>
     <message>
         <source>Open File Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwórz lokalizację pliku</translation>
     </message>
     <message>
         <source>Open Existing Document</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwórz istniejący dokument</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>Przeglądaj</translation>
     </message>
     <message>
         <source>New Blank Document</source>
@@ -109,51 +109,55 @@
     </message>
     <message>
         <source>Student report</source>
-        <translation type="unfinished"></translation>
+        <translation>Raport uczniowski</translation>
     </message>
     <message>
         <source>General notes</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogólne notatki</translation>
     </message>
     <message>
         <source>Resume</source>
-        <translation type="unfinished"></translation>
+        <translation>Życiorys</translation>
     </message>
     <message>
         <source>Resume cover letter
 (chronological)</source>
-        <translation type="unfinished"></translation>
+        <translation>List motywacyjny
+(chronologiczny)</translation>
     </message>
     <message>
         <source>Bold Report</source>
-        <translation type="unfinished"></translation>
+        <translation>Raport</translation>
     </message>
     <message>
         <source>   Simple Document
    Example of how styles and formatting
    can make a document in O20.</source>
-        <translation type="unfinished"></translation>
+        <translation>   Prosty przykładowy
+   dokument z przykładami stylów
+   i formatowania w O20.</translation>
     </message>
     <message>
         <source>Business letter</source>
-        <translation type="unfinished"></translation>
+        <translation>List firmowy</translation>
     </message>
     <message>
         <source>Resume
 (chronological)</source>
-        <translation type="unfinished"></translation>
+        <translation>Życiorys
+(chronologiczny)</translation>
     </message>
     <message>
         <source>Basic blank</source>
-        <translation type="unfinished"></translation>
+        <translation>Podstawowy artykuł</translation>
     </message>
     <message>
         <source>Resume cover letter</source>
-        <translation type="unfinished"></translation>
+        <translation>List motywacyjny</translation>
     </message>
     <message>
         <source>Blank Doc</source>
-        <translation type="unfinished"></translation>
+        <translation>Pusty dok</translation>
     </message>
     <message>
         <source>Single spaced</source>
@@ -161,83 +165,83 @@
     </message>
     <message>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation>+</translation>
     </message>
     <message>
         <source>Blank document</source>
-        <translation type="unfinished"></translation>
+        <translation>Pusty dokument</translation>
     </message>
     <message>
         <source>  Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>  Przeglądaj</translation>
     </message>
     <message>
         <source>Ctrl+O</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <source>  Import Code</source>
-        <translation type="unfinished"></translation>
+        <translation>  Importuj kod</translation>
     </message>
     <message>
         <source>Open Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwórz lokalizację</translation>
     </message>
     <message>
         <source>  Open Location</source>
-        <translation type="unfinished"></translation>
+        <translation>  Otwórz lokalizację</translation>
     </message>
     <message>
         <source>Open ReadOnly</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwórz tylko do odczytu</translation>
     </message>
     <message>
         <source>Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Folder</translation>
     </message>
     <message>
         <source>Folder 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Folder 1</translation>
     </message>
     <message>
         <source>Folder 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Folder 2</translation>
     </message>
     <message>
         <source>File.odt</source>
-        <translation type="unfinished"></translation>
+        <translation>Plik.odt</translation>
     </message>
     <message>
         <source>Main.cpp</source>
-        <translation type="unfinished"></translation>
+        <translation>Main.cpp</translation>
     </message>
     <message>
         <source>Website.html</source>
-        <translation type="unfinished"></translation>
+        <translation>Strona.html</translation>
     </message>
     <message>
         <source>  Save as PDF</source>
-        <translation>Zapisz jako PDF</translation>
+        <translation>  Zapisz jako PDF</translation>
     </message>
     <message>
         <source>  Save As</source>
-        <translation>Zapisz jako</translation>
+        <translation>  Zapisz jako</translation>
     </message>
     <message>
         <source>&lt;html>&lt;head/>&lt;body>&lt;p>WARNING: O20 CANNOT OPEN DOC OR DOCX!&lt;/p>&lt;/body>&lt;/html></source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html>&lt;head/>&lt;body>&lt;p>OSTRZEŻENIE: O20 NIE OTWIERA FORMATÓW DOC I DOCX!&lt;/p>&lt;/body>&lt;/html></translation>
     </message>
     <message>
         <source>  Save</source>
-        <translation>Zapisz</translation>
+        <translation>  Zapisz</translation>
     </message>
     <message>
         <source>  Print</source>
-        <translation>Drukuj</translation>
+        <translation>  Drukuj</translation>
     </message>
     <message>
         <source>&lt;html>&lt;head/>&lt;body>&lt;p>About O20&lt;/p>&lt;/body>&lt;/html></source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html>&lt;head/>&lt;body>&lt;p>O O20&lt;/p>&lt;/body>&lt;/html></translation>
     </message>
     <message>
         <source> Built with Qt 5.14</source>
@@ -253,11 +257,19 @@ p, li { white-space: pre-wrap; }
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Email bugs, feature requests, and design ideas to the following adress:&lt;br />&lt;span style=" font-style:italic;">incoming+abstractsoftware-o20-o20coreapps-16112563-issue-@incoming.gitlab.com&lt;/span>&lt;/p>
 &lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Icons courtesy of the &lt;a href="https://github.com/vinceliuice/McMojave-circle">&lt;span style=" text-decoration: underline; color:#2980b9;">McMojave Circle&lt;/span>&lt;/a> and &lt;a href="https://www.axialis.com">&lt;span style=" font-family:'Noto Sans'; text-decoration: underline; color:#2980b9;">Axialis Software&lt;/span>&lt;/a>.&lt;/p>
 &lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Find out more about O20 and the Abstract Project at our &lt;a href="https://abstractsoftware.gitlab.io/">&lt;span style=" text-decoration: underline; color:#2980b9;">Website.&lt;/span>&lt;/a>&lt;/p>&lt;/body>&lt;/html></source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Open Sans'; font-size:10pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">O20 jest szybkim i efektywnym pakietem biurowym dla systemu Linux, zbudowanym w oparciu o Qt5 oraz KDE oraz zaprojektowanym tak, by przypominać O365 pod względem wyglądu i funkcjonalności. W O20 możesz tworzyć i edytować swoje dokumenty, bez obawy o utratę danych dzięki wbudowanej w O20 funkcji &amp;quot;AutoSave&amp;quot; - Automatyczne zapisywanie. &lt;br />Teraz w Word (oraz OpenPoint i Notes nadchodzących w 2021 roku), możesz doświadczyć O365 na swoim komputerze z Linuksem, z całkowitym wsparciem dla formatów ODT oraz XHTML, automatycznym zapisywaniem, Asystentem O20, stylami wraz dostępnością na wszystkich platformach dzięki Snapcraft i Flatpak.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Zgłaszaj błędy, pomysły na ten adres:&lt;br />&lt;span style=" font-style:italic;">incoming+abstractsoftware-o20-o20coreapps-16112563-issue-@incoming.gitlab.com&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Ikony &lt;a href="https://github.com/vinceliuice/McMojave-circle">&lt;span style=" text-decoration: underline; color:#2980b9;">McMojave Circle&lt;/span>&lt;/a> and &lt;a href="https://www.axialis.com">&lt;span style=" font-family:'Noto Sans'; text-decoration: underline; color:#2980b9;">Axialis Software&lt;/span>&lt;/a>.&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Więcej o O20 i Abstract Project na &lt;a href="https://abstractsoftware.gitlab.io/">&lt;span style=" text-decoration: underline; color:#2980b9;">stronie.&lt;/span>&lt;/a>&lt;/p>&lt;/body>&lt;/html></translation>
     </message>
     <message>
         <source>&lt;html>&lt;head/>&lt;body>&lt;p>Not getting updates for O20? Try running:&lt;br/>&lt;span style=" font-family:'Ubuntu Mono'; font-size:11pt;">&amp;gt; snap refresh office20&lt;/span>&lt;/p>&lt;/body>&lt;/html></source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html>&lt;head/>&lt;body>&lt;p>Brak aktualizacji dla O20? Użyj:&lt;br/>&lt;span style=" font-family:'Ubuntu Mono'; font-size:11pt;">&amp;gt; snap refresh office20&lt;/span>&lt;/p>&lt;/body>&lt;/html></translation>
     </message>
     <message>
         <source>Some of these options may require restart to take effect.</source>
@@ -269,75 +281,75 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Assistive Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Tryb asystenta</translation>
     </message>
     <message>
         <source>Recover the window state</source>
-        <translation type="unfinished"></translation>
+        <translation>Przywróć stan okna</translation>
     </message>
     <message>
         <source>Show the start screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaż ekran startowy</translation>
     </message>
     <message>
         <source>Show the splash screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaż ekran powitalny</translation>
     </message>
     <message>
         <source>User Settings and Customization</source>
-        <translation type="unfinished"></translation>
+        <translation>Ustawienia użytkownika</translation>
     </message>
     <message>
         <source>What would you like me to call you?</source>
-        <translation type="unfinished"></translation>
+        <translation>Jak mam Ciebie nazywać?</translation>
     </message>
     <message>
         <source>What is your full name?</source>
-        <translation type="unfinished"></translation>
+        <translation>Twoje imię i nazwisko</translation>
     </message>
     <message>
         <source>What are your initials?</source>
-        <translation type="unfinished"></translation>
+        <translation>Twoje inicjały</translation>
     </message>
     <message>
         <source>No Photo</source>
-        <translation type="unfinished"></translation>
+        <translation>Brak zdjęcia</translation>
     </message>
     <message>
         <source>Save and AutoSave</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisuj oraz zapisuj automatycznie</translation>
     </message>
     <message>
         <source>Always autosave</source>
-        <translation type="unfinished"></translation>
+        <translation>Zawsze zapisuj automatycznie</translation>
     </message>
     <message>
         <source>Ask for save location</source>
-        <translation type="unfinished"></translation>
+        <translation>Pytaj o miejsce zapisu</translation>
     </message>
     <message>
         <source>&lt;html>&lt;head/>&lt;body>&lt;p>Testing features&lt;br/>&lt;span style=" font-size:10pt;">Pre-released beta features, may not work properly&lt;/span>&lt;/p>&lt;/body>&lt;/html></source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html>&lt;head/>&lt;body>&lt;p>Funkcje w wersji testowej&lt;br/>&lt;span style=" font-size:10pt;">Funkcje zawarte w wesji beta mogą nie działać prawidłowo&lt;/span>&lt;/p>&lt;/body>&lt;/html></translation>
     </message>
     <message>
         <source>Extract text from DOCX</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyodrębnij tekst z dokumentu DOCX</translation>
     </message>
     <message>
         <source>Dark mode for Text and Code</source>
-        <translation type="unfinished"></translation>
+        <translation>Tryb nocny dla tekstu i kodu</translation>
     </message>
     <message>
         <source>AutoSave</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisz automatycznie</translation>
     </message>
     <message>
         <source>qrc:/QML/SwitchButton.qml</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/QML/SwitchButton.qml</translation>
     </message>
     <message>
         <source>Save Document</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisz dokument</translation>
     </message>
     <message>
         <source>Tell me what you want to do</source>
@@ -345,7 +357,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>John Doe</source>
-        <translation type="unfinished"></translation>
+        <translation>Jan Kowalski</translation>
     </message>
     <message>
         <source>File</source>
@@ -365,97 +377,99 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>8</source>
-        <translation type="unfinished"></translation>
+        <translation>8</translation>
     </message>
     <message>
         <source>9</source>
-        <translation type="unfinished"></translation>
+        <translation>9</translation>
     </message>
     <message>
         <source>10</source>
-        <translation type="unfinished"></translation>
+        <translation>10</translation>
     </message>
     <message>
         <source>11</source>
-        <translation type="unfinished"></translation>
+        <translation>11</translation>
     </message>
     <message>
         <source>12</source>
-        <translation type="unfinished"></translation>
+        <translation>12</translation>
     </message>
     <message>
         <source>13</source>
-        <translation type="unfinished"></translation>
+        <translation>13</translation>
     </message>
     <message>
         <source>14</source>
-        <translation type="unfinished"></translation>
+        <translation>14</translation>
     </message>
     <message>
         <source>16</source>
-        <translation type="unfinished"></translation>
+        <translation>16</translation>
     </message>
     <message>
         <source>18</source>
-        <translation type="unfinished"></translation>
+        <translation>18</translation>
     </message>
     <message>
         <source>20</source>
-        <translation type="unfinished"></translation>
+        <translation>20</translation>
     </message>
     <message>
         <source>24</source>
-        <translation type="unfinished"></translation>
+        <translation>24</translation>
     </message>
     <message>
         <source>26</source>
-        <translation type="unfinished"></translation>
+        <translation>26</translation>
     </message>
     <message>
         <source>28</source>
-        <translation type="unfinished"></translation>
+        <translation>28</translation>
     </message>
     <message>
         <source>32</source>
-        <translation type="unfinished"></translation>
+        <translation>32</translation>
     </message>
     <message>
         <source>48</source>
-        <translation type="unfinished"></translation>
+        <translation>48</translation>
     </message>
     <message>
         <source>72</source>
-        <translation type="unfinished"></translation>
+        <translation>72</translation>
     </message>
     <message>
         <source>Bold
 CTRL+B</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogrubienie
+CTRL+B</translation>
     </message>
     <message>
         <source>B</source>
-        <translation type="unfinished"></translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Ctrl+B</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+B</translation>
     </message>
     <message>
         <source>Italic
 CTRL+I</source>
-        <translation type="unfinished"></translation>
+        <translation>Kursywa
+CTRL+I</translation>
     </message>
     <message>
         <source>Ctrl+I</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+I</translation>
     </message>
     <message>
         <source>Underline</source>
-        <translation type="unfinished"></translation>
+        <translation>Podkreślenie</translation>
     </message>
     <message>
         <source>Ctrl+U</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+U</translation>
     </message>
     <message>
         <source>Overline</source>
@@ -463,107 +477,107 @@ CTRL+I</source>
     </message>
     <message>
         <source>O</source>
-        <translation type="unfinished"></translation>
+        <translation>O</translation>
     </message>
     <message>
         <source>Strikethrough</source>
-        <translation type="unfinished"></translation>
+        <translation>Przekreślenie</translation>
     </message>
     <message>
         <source>Superscript</source>
-        <translation type="unfinished"></translation>
+        <translation>Indeks górny</translation>
     </message>
     <message>
         <source>Subscript</source>
-        <translation type="unfinished"></translation>
+        <translation>Indeks dolny</translation>
     </message>
     <message>
         <source>Text Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolor tekstu</translation>
     </message>
     <message>
         <source>Paragraph Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolor akapitu</translation>
     </message>
     <message>
         <source>Clear Formatting</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyczyść formatowanie</translation>
     </message>
     <message>
         <source>Align Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyrównaj do lewej</translation>
     </message>
     <message>
         <source>Align Center</source>
-        <translation type="unfinished"></translation>
+        <translation>Wycentruj</translation>
     </message>
     <message>
         <source>Align Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyrównaj do prawej</translation>
     </message>
     <message>
         <source>Justify</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyrównaj z obu stron</translation>
     </message>
     <message>
         <source>Bulleted List</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista wypunktowana</translation>
     </message>
     <message>
         <source>Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>Style</translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation type="unfinished"></translation>
+        <translation>Wprowadź</translation>
     </message>
     <message>
         <source>Insert Picture</source>
-        <translation type="unfinished"></translation>
+        <translation>Wklej obrazek</translation>
     </message>
     <message>
         <source> Picture</source>
-        <translation type="unfinished"></translation>
+        <translation> Obrazek</translation>
     </message>
     <message>
         <source>Insert Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Wklej komentarz</translation>
     </message>
     <message>
         <source>Insert Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Wklej tablicę</translation>
     </message>
     <message>
         <source> Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Tablica</translation>
     </message>
     <message>
         <source>Insert Link</source>
-        <translation type="unfinished"></translation>
+        <translation>Wklej adres</translation>
     </message>
     <message>
         <source> Link</source>
-        <translation type="unfinished"></translation>
+        <translation> Adres</translation>
     </message>
     <message>
         <source>Review</source>
-        <translation type="unfinished"></translation>
+        <translation>Podgląd</translation>
     </message>
     <message>
         <source>Check Spelling</source>
-        <translation type="unfinished"></translation>
+        <translation>Sprawdź pisownię</translation>
     </message>
     <message>
         <source>Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>Zastąp</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomoc</translation>
     </message>
     <message>
         <source>Hide and Show Sidebar</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukryj lub pokaż panel boczny</translation>
     </message>
     <message>
         <source>Spectrum</source>
@@ -571,23 +585,23 @@ CTRL+I</source>
     </message>
     <message>
         <source>&lt;html>&lt;head/>&lt;body>&lt;p>Spectrum&lt;/p>&lt;/body>&lt;/html></source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html>&lt;head/>&lt;body>&lt;p>Spectrum&lt;/p>&lt;/body>&lt;/html></translation>
     </message>
     <message>
         <source>&lt;html>&lt;head/>&lt;body>&lt;p align="center">&lt;img src=":/AxIcons/other/png/support-filled-color-wheel_large@1x.png"/>&lt;/p>&lt;p align="center">Welcome to O20.&lt;br/>This is O365 on Linux.&lt;/p>&lt;/body>&lt;/html></source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html>&lt;head/>&lt;body>&lt;p align="center">&lt;img src=":/AxIcons/other/png/support-filled-color-wheel_large@1x.png"/>&lt;/p>&lt;p align="center">Witaj w O20.&lt;br/>To jest O365 na Linuksie.&lt;/p>&lt;/body>&lt;/html></translation>
     </message>
     <message>
         <source>Welcome to O20.</source>
-        <translation type="unfinished"></translation>
+        <translation>Witaj w O20</translation>
     </message>
     <message>
         <source>Goto line 23</source>
-        <translation type="unfinished"></translation>
+        <translation>Idź do linii 23</translation>
     </message>
     <message>
         <source>Done!</source>
-        <translation type="unfinished"></translation>
+        <translation>Zrobione! </translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
@@ -600,7 +614,16 @@ p, li { white-space: pre-wrap; }
 &lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Open Sans'; color:#000000;">Don't hesitate to send a bug report or design idea by emailing us at:&lt;br />&lt;/span>&lt;span style=" font-family:'Open Sans';">incoming+abstractsoftware-office20-16112563-issue-@incoming.gitlab.com.&lt;/span>&lt;/p>
 &lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Open Sans'; color:#000000;">For more information, visit the following sites:&lt;/span>&lt;/p>
 &lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;a href="https://abstractsoftware.gitlab.io">&lt;span style=" font-family:'Open Sans'; text-decoration: underline; color:#2980b9;">Developer Website&lt;/span>&lt;/a>&lt;span style=" font-family:'Open Sans'; color:#000000;">&lt;br />&lt;/span>&lt;a href="https://gitlab.com/abstractsoftware/office20/">&lt;span style=" font-family:'Open Sans'; text-decoration: underline; color:#2980b9;">GitLab Page&lt;/span>&lt;/a>&lt;/p>&lt;/body>&lt;/html></source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Open Sans'; font-size:10pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Open Sans Light'; font-size:18pt;">Co nowego Office20.Word&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Open Sans'; color:#000000;">Witaj w Office20.Word!&lt;br />Lut2.1 to mnóstwo nowych funkcji. Między innymi:&lt;br />- Przebudowana strona 'Ustawienia', która pasuje teraz do reszty interfejsu&lt;br />- Możliwość wstawiania znaków Utf8, wliczając greckie, łacińskie, chińskie, japońskie, koreańskie oraz matematyczne.&lt;br />- Wersja beta filtra importu dokumentów DOCX.&lt;br />- Wbudowany menadżer plików&lt;br />- Szybsze automatyczne zapisywanie oraz zapisywanie wielowątkowe z użyciem technologii nowoczesnych komputerów.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Open Sans'; color:#000000;">Od Sty1.0, również dodaliśmy wiele nowych funkcji, wliczając:&lt;br />- Podświetlanie składni dla programowania&lt;br />- Nowy ekran powitalny&lt;br />- Całkowicie przebudowany interfejs oraz silnik Spectrum&lt;br />- Tryb czytnika&lt;br />- Ostatnie dokumenty&lt;br />- O20.Word na platformie Flathub&lt;br />- I więcej!&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Open Sans'; color:#000000;">Wysyłaj raporty błędów propozycje zmian w projekcie przez email:&lt;br />&lt;/span>&lt;span style=" font-family:'Open Sans';">incoming+abstractsoftware-office20-16112563-issue-@incoming.gitlab.com.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Open Sans'; color:#000000;">Więcej informacji na stronach:&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;a href="https://abstractsoftware.gitlab.io">&lt;span style=" font-family:'Open Sans'; text-decoration: underline; color:#2980b9;">Strona twórców&lt;/span>&lt;/a>&lt;span style=" font-family:'Open Sans'; color:#000000;">&lt;br />&lt;/span>&lt;a href="https://gitlab.com/abstractsoftware/office20/">&lt;span style=" font-family:'Open Sans'; text-decoration: underline; color:#2980b9;">GitLab&lt;/span>&lt;/a>&lt;/p>&lt;/body>&lt;/html></translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
@@ -613,7 +636,16 @@ p, li { white-space: pre-wrap; }
 &lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Noto Sans';">Try selecting some text and asking me this:&lt;br />Make this text italic, Spectrum!&lt;/span>&lt;/p>
 &lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Noto Sans';">Show file tab&lt;br />Create a new doc!&lt;br />What is the time?&lt;/span>&lt;/p>
 &lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Noto Sans';">Soon, I will be able to do even more things. You will be able to this:&lt;br />Go to line 15 and select the entire line.&lt;br />Replace this line with &amp;quot;I am Spectrum&amp;quot;.&lt;br />Make the selected text italic and set the text color to be red.&lt;br />Thanks, Spectrum!&lt;/span>&lt;/p>&lt;/body>&lt;/html></source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Open Sans Light'; font-size:18pt;">Cześć! Jestem Spectrum.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Open Sans'; font-size:11pt;">Używaj Office20 przy mojej pomocy (po angielsku).&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Noto Sans';">Jestem Twoim asystentem w Office20.&lt;br />Możesz dzięki mnie wykonać działania szybciej.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Noto Sans';">Spróbuj zaznaczyć tekst i wydać mi polecenie:&lt;br />Make this text italic, Spectrum!&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Noto Sans';">Show file tab&lt;br />Create a new doc!&lt;br />What is the time?&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Noto Sans';">Wkrótce będę w stanie robić więcej rzeczy, na przykład:&lt;br />Go to line 15 and select the entire line.&lt;br />Replace this line with &amp;quot;I am Spectrum&amp;quot;.&lt;br />Make the selected text italic and set the text color to be red.&lt;br />Thanks, Spectrum!&lt;/span>&lt;/p>&lt;/body>&lt;/html></translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
@@ -628,7 +660,18 @@ p, li { white-space: pre-wrap; }
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Noto Sans';">This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General  Public License for more details.&lt;/span>&lt;/p>
 &lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Noto Sans';">&lt;br />&lt;/p>
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Noto Sans';">You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.&lt;/span>&lt;/p>&lt;/body>&lt;/html></source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Noto Sans';">Bezpłatny i otwartoźródłowy zamiennik pakietu MS Office dla systemu Linux.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Noto Sans';">Copyright (C) 2020 by the Abstract Developers&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Noto Sans';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Noto Sans';">Ten program należy do wolnego oprogramowania. Możesz rozprowadzać oraz/lub modyfikować zgodnie z zasadami licencji GNU General Public License opublikowanej przez Free Software Foundation, zarówno w wersji 2 danej licencji lub (wedle woli) każdej późniejszej.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Noto Sans';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Noto Sans';">Ten program jest rozprowadzany z nadzieją, że będzie przydatny, lecz BEZ JAKICHKOLWIEK GWARANCJI, ??without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.?? Więcej informacji w GNU General Public License.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Noto Sans';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Noto Sans';">Powinienieć otrzymać kopię licencji GNU General Public License razem z tym programem. Jeśli nie, zapytaj o nią: the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.&lt;/span>&lt;/p>&lt;/body>&lt;/html></translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
@@ -639,407 +682,414 @@ p, li { white-space: pre-wrap; }
 &lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Open Sans';">Created by the Abstract Developers in Qt5 during the fall of 2019, Office20 is the perfect Office365 alternative for Linux, with a Ribbon-style interface, support for ODF, and Spectrum, the assistant which will allow you to write documents faster.&lt;/span>&lt;/p>
 &lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Open Sans';">Now with Word, and PowerPoint and OneNote alternatives coming soon, you can enjoy the experience of Office on your Linux desktop, before it is released in early 2020.&lt;/span>&lt;/p>
 &lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Open Sans';">Icons courtesy of &lt;/span>&lt;a href="www.axialis.com">&lt;span style=" font-family:'Open Sans'; text-decoration: underline; color:#2980b9;">Axialis Software&lt;/span>&lt;/a>&lt;span style=" font-family:'Open Sans';">.&lt;/span>&lt;/p>&lt;/body>&lt;/html></source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Open Sans'; font-size:10pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Open Sans Light'; font-size:20pt;">This is O365 on Linux&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Open Sans';">Stworzono przez Abstract Developers w języku Qt5 jesienią 2019 roku, Office20 jest idealnym zamiennikiem Office365 dla systemów Linux, z możliwością ustawienia znanego trybu ze wstążką, obsługą formatu ODF oraz Spectrum - asystentem wspomagającym szybsze tworzenie dokumentów.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Open Sans';">Razem z Edytorem oraz niedługo wydanymi zamiennikami dla PowerPoint oraz OneNote, możesz doświadczać pakietu Office na komputerze z systemem Linux, przed oficjalnym wydaniem na początku 2020 roku.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Open Sans';">Ikony &lt;/span>&lt;a href="www.axialis.com">&lt;span style=" font-family:'Open Sans'; text-decoration: underline; color:#2980b9;">Axialis Software&lt;/span>&lt;/a>&lt;span style=" font-family:'Open Sans';">.&lt;/span>&lt;/p>&lt;/body>&lt;/html></translation>
     </message>
     <message>
         <source>Ask me anything</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapytaj mnie</translation>
     </message>
     <message>
         <source> Heading 1</source>
-        <translation type="unfinished"></translation>
+        <translation> Nagłówek 1</translation>
     </message>
     <message>
         <source>qrc:/QML/SwitchButtonLite.qml</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/QML/SwitchButtonLite.qml</translation>
     </message>
     <message>
         <source>AutoDetect Headings</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatyczne wykrywanie nagłówków</translation>
     </message>
     <message>
         <source> New</source>
-        <translation type="unfinished"></translation>
+        <translation> Nowy</translation>
     </message>
     <message>
         <source>John Doe: This is a comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Jan Kowalski: to jest komentarz</translation>
     </message>
     <message>
         <source>Editor: This is another comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Autor: to jest kolejny komentarz</translation>
     </message>
     <message>
         <source>Another Editor: And yet another comment...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolejny autor: to jest kolejny komentarz...</translation>
     </message>
     <message>
         <source>Previous versions of this document</source>
-        <translation type="unfinished"></translation>
+        <translation>poprzednie wersje dokumentu</translation>
     </message>
     <message>
         <source>AutoSaved at 1:00pm</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisano automatycznie o 13:00</translation>
     </message>
     <message>
         <source>AutoSaved at 1:10pm</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisano automatycznie o 13:10</translation>
     </message>
     <message>
         <source>AutoSaved at 1:20pm</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisano automatycznie o 13:20</translation>
     </message>
     <message>
         <source>Open in File Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwórz w menadżerze plików</translation>
     </message>
     <message>
         <source>Your document has been AutoSaved as /home/xxx/Documents/O20/Docs/Document1.odt</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokument został automatycznie zapisany jako /home/xxx/Documents/O20/Docs/Document1.odt</translation>
     </message>
     <message>
         <source>Close Notification</source>
-        <translation type="unfinished"></translation>
+        <translation>Zamknij powiadomienie</translation>
     </message>
     <message>
         <source>Fatal Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd krytyczny</translation>
     </message>
     <message>
         <source>There was some sort of error doing that. Please try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastąpił błąd podczas wykonywania tej czynności. Spróbuj ponownie.</translation>
     </message>
     <message>
         <source>Return to File Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Powróć do zakładki pliku</translation>
     </message>
     <message>
         <source>Speak Selected Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Odsłuchaj zaznaczony tekst</translation>
     </message>
     <message>
         <source>Stop Speaking</source>
-        <translation type="unfinished"></translation>
+        <translation>Zakończ odsłuchiwanie tekstu</translation>
     </message>
     <message>
         <source>Go into Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Pełny ekran</translation>
     </message>
     <message>
         <source>Close Reading Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Zamknij tryb czytnika</translation>
     </message>
     <message>
         <source>0 characters    1 lines</source>
-        <translation type="unfinished"></translation>
+        <translation>0 znaków    1 linii</translation>
     </message>
     <message>
         <source>Welcome to O20</source>
-        <translation type="unfinished"></translation>
+        <translation>Witaj w O20</translation>
     </message>
     <message>
         <source>Edit Document</source>
-        <translation type="unfinished"></translation>
+        <translation>Edytuj dokument</translation>
     </message>
     <message>
         <source>Leave Spectrum-Only Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Pozostaw tryb Tylko-Spectrum</translation>
     </message>
     <message>
         <source>O20 Special Characters</source>
-        <translation type="unfinished"></translation>
+        <translation>O20 Znaki specjalne</translation>
     </message>
     <message>
         <source>Hide Ribbon</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukryj wstążkę</translation>
     </message>
     <message>
         <source>Show Tabs Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaż tylko zakładki</translation>
     </message>
     <message>
         <source>Show Tabs and Commands</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaż zakładki i polecenia</translation>
     </message>
     <message>
         <source>Show Sidebar</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaż panel boczny</translation>
     </message>
     <message>
         <source>Black Circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Punkt czarny</translation>
     </message>
     <message>
         <source>White Circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Punkt biały</translation>
     </message>
     <message>
         <source>Square</source>
-        <translation type="unfinished"></translation>
+        <translation>Kwadrat</translation>
     </message>
     <message>
         <source>No underline</source>
-        <translation type="unfinished"></translation>
+        <translation>Bez krawędzi</translation>
     </message>
     <message>
         <source>URL to insert</source>
-        <translation type="unfinished"></translation>
+        <translation>Adres WWW do wstawienia</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation type="unfinished"></translation>
+        <translation>Wytnij</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiuj</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>Wklej</translation>
     </message>
     <message>
         <source>Paste (Text Only)</source>
-        <translation type="unfinished"></translation>
+        <translation>Wklej (tylko tekst)</translation>
     </message>
     <message>
         <source>Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatyczny</translation>
     </message>
     <message>
         <source>Red</source>
-        <translation type="unfinished"></translation>
+        <translation>Czerwony</translation>
     </message>
     <message>
         <source>Crimson</source>
-        <translation type="unfinished"></translation>
+        <translation>Karmazynowy</translation>
     </message>
     <message>
         <source>Magenta</source>
-        <translation type="unfinished"></translation>
+        <translation>Purpurowy</translation>
     </message>
     <message>
         <source>Mauve</source>
-        <translation type="unfinished"></translation>
+        <translation>Jasnofioletowy</translation>
     </message>
     <message>
         <source>Orange</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomarańczowy</translation>
     </message>
     <message>
         <source>Yellow</source>
-        <translation type="unfinished"></translation>
+        <translation>Żółty</translation>
     </message>
     <message>
         <source>Pink</source>
-        <translation type="unfinished"></translation>
+        <translation>Różowy</translation>
     </message>
     <message>
         <source>Violet</source>
-        <translation type="unfinished"></translation>
+        <translation>Fioletowy</translation>
     </message>
     <message>
         <source>Cobalt</source>
-        <translation type="unfinished"></translation>
+        <translation>Ciemnoniebieski</translation>
     </message>
     <message>
         <source>Indigo</source>
-        <translation type="unfinished"></translation>
+        <translation>Indygo</translation>
     </message>
     <message>
         <source>Teal</source>
-        <translation type="unfinished"></translation>
+        <translation>Morski</translation>
     </message>
     <message>
         <source>Steel</source>
-        <translation type="unfinished"></translation>
+        <translation>Stalowy</translation>
     </message>
     <message>
         <source>Emerald</source>
-        <translation type="unfinished"></translation>
+        <translation>Szmaragdowy</translation>
     </message>
     <message>
         <source>Olive</source>
-        <translation type="unfinished"></translation>
+        <translation>Oliwkowy</translation>
     </message>
     <message>
         <source>Green</source>
-        <translation type="unfinished"></translation>
+        <translation>Zielony</translation>
     </message>
     <message>
         <source>Cyan</source>
-        <translation type="unfinished"></translation>
+        <translation>Turkusowy</translation>
     </message>
     <message>
         <source>Taupe</source>
-        <translation type="unfinished"></translation>
+        <translation>Szarobrązowy</translation>
     </message>
     <message>
         <source>Select Color...</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybór koloru...</translation>
     </message>
     <message>
         <source>Select Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz kolor</translation>
     </message>
     <message>
         <source>Transparent</source>
-        <translation type="unfinished"></translation>
+        <translation>Przezroczysty</translation>
     </message>
     <message>
         <source>Welcome back!</source>
-        <translation type="unfinished"></translation>
+        <translation>Witaj ponownie!</translation>
     </message>
     <message>
         <source>italic</source>
-        <translation type="unfinished"></translation>
+        <translation>pochylenie</translation>
     </message>
     <message>
         <source>bold</source>
-        <translation type="unfinished"></translation>
+        <translation>pogrubienie</translation>
     </message>
     <message>
         <source>strikeout</source>
-        <translation type="unfinished"></translation>
+        <translation>przekreślenie</translation>
     </message>
     <message>
         <source>underline</source>
-        <translation type="unfinished"></translation>
+        <translation>podkreślenie</translation>
     </message>
     <message>
         <source>go to #</source>
-        <translation type="unfinished"></translation>
+        <translation>idź do #</translation>
     </message>
     <message>
         <source>go to line #</source>
-        <translation type="unfinished"></translation>
+        <translation>idź do linii #</translation>
     </message>
     <message>
         <source>go to top</source>
-        <translation type="unfinished"></translation>
+        <translation>idź do początku dokumentu</translation>
     </message>
     <message>
         <source>go to bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>idź do końca dokumentu</translation>
     </message>
     <message>
         <source>align left</source>
-        <translation type="unfinished"></translation>
+        <translation>wyrównanie z lewej</translation>
     </message>
     <message>
         <source>align right</source>
-        <translation type="unfinished"></translation>
+        <translation>wyrównanie z prawej</translation>
     </message>
     <message>
         <source>align center</source>
-        <translation type="unfinished"></translation>
+        <translation>wyrównanie do środka</translation>
     </message>
     <message>
         <source>align justify</source>
-        <translation type="unfinished"></translation>
+        <translation>wyrównanie z obu stron</translation>
     </message>
     <message>
         <source>left</source>
-        <translation type="unfinished"></translation>
+        <translation>do lewej</translation>
     </message>
     <message>
         <source>right</source>
-        <translation type="unfinished"></translation>
+        <translation>do prawej</translation>
     </message>
     <message>
         <source>center</source>
-        <translation type="unfinished"></translation>
+        <translation>wyśrodkuj</translation>
     </message>
     <message>
         <source>justify</source>
-        <translation type="unfinished"></translation>
+        <translation>wyrównaj z obu stron</translation>
     </message>
     <message>
         <source>rename PATH</source>
-        <translation type="unfinished"></translation>
+        <translation>zmień ŚCIEŻKĘ</translation>
     </message>
     <message>
         <source>Hi.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cześć.</translation>
     </message>
     <message>
         <source>Hello there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cześć Ty.</translation>
     </message>
     <message>
         <source>Hello!</source>
-        <translation type="unfinished"></translation>
+        <translation>Dzień dobry!</translation>
     </message>
     <message>
         <source>Greetings!</source>
-        <translation type="unfinished"></translation>
+        <translation>Pozdrawiam!</translation>
     </message>
     <message>
         <source>Hey there!</source>
-        <translation type="unfinished"></translation>
+        <translation>Cześć!</translation>
     </message>
     <message>
         <source>Welcome.</source>
-        <translation type="unfinished"></translation>
+        <translation>Witaj.</translation>
     </message>
     <message>
         <source>Good day.</source>
-        <translation type="unfinished"></translation>
+        <translation>Miłego dnia.</translation>
     </message>
     <message>
         <source>Let's get started.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaczynamy.</translation>
     </message>
     <message>
         <source>to</source>
-        <translation type="unfinished"></translation>
+        <translation>do</translation>
     </message>
     <message>
         <source>up</source>
-        <translation type="unfinished"></translation>
+        <translation>w górę</translation>
     </message>
     <message>
         <source>down</source>
-        <translation type="unfinished"></translation>
+        <translation>w dół</translation>
     </message>
     <message>
         <source>line</source>
-        <translation type="unfinished"></translation>
+        <translation>linia</translation>
     </message>
     <message>
         <source>begin</source>
-        <translation type="unfinished"></translation>
+        <translation>rozpocznij</translation>
     </message>
     <message>
         <source>start</source>
-        <translation type="unfinished"></translation>
+        <translation>początek</translation>
     </message>
     <message>
         <source>end</source>
-        <translation type="unfinished"></translation>
+        <translation>koniec</translation>
     </message>
     <message>
         <source>before</source>
-        <translation type="unfinished"></translation>
+        <translation>przed</translation>
     </message>
     <message>
         <source>previous</source>
-        <translation type="unfinished"></translation>
+        <translation>poprzedni</translation>
     </message>
     <message>
         <source>word</source>
-        <translation type="unfinished"></translation>
+        <translation>wyraz</translation>
     </message>
     <message>
         <source>next</source>
-        <translation type="unfinished"></translation>
+        <translation>następny</translation>
     </message>
     <message>
         <source>after</source>
-        <translation type="unfinished"></translation>
+        <translation>za</translation>
     </message>
     <message>
         <source>char</source>
-        <translation type="unfinished"></translation>
+        <translation>znak</translation>
     </message>
     <message>
         <source>para</source>
@@ -1055,7 +1105,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>doc</source>
-        <translation type="unfinished"></translation>
+        <translation>doc</translation>
     </message>
     <message>
         <source>go</source>
@@ -1063,27 +1113,27 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>strike</source>
-        <translation type="unfinished"></translation>
+        <translation>przekreślenie</translation>
     </message>
     <message>
         <source>bullet</source>
-        <translation type="unfinished"></translation>
+        <translation>punkt</translation>
     </message>
     <message>
         <source>number</source>
-        <translation type="unfinished"></translation>
+        <translation>liczba</translation>
     </message>
     <message>
         <source>select</source>
-        <translation type="unfinished"></translation>
+        <translation>wybierz</translation>
     </message>
     <message>
         <source>insert</source>
-        <translation type="unfinished"></translation>
+        <translation>wstaw</translation>
     </message>
     <message>
         <source>rename</source>
-        <translation type="unfinished"></translation>
+        <translation>zmień nazwę</translation>
     </message>
     <message>
         <source>overline</source>
@@ -1091,27 +1141,27 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>lineover</source>
-        <translation type="unfinished"></translation>
+        <translation>przekreślenie</translation>
     </message>
     <message>
         <source>super</source>
-        <translation type="unfinished"></translation>
+        <translation>index górny</translation>
     </message>
     <message>
         <source>sub</source>
-        <translation type="unfinished"></translation>
+        <translation>index dolny</translation>
     </message>
     <message>
         <source>clear</source>
-        <translation type="unfinished"></translation>
+        <translation>wyczyść</translation>
     </message>
     <message>
         <source>Something went wrong doing that.</source>
-        <translation type="unfinished"></translation>
+        <translation>Coś poszło nie tak.</translation>
     </message>
     <message>
         <source>I can't take you there!</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie mogę Ciebie tam zabrać!</translation>
     </message>
     <message>
         <source>I don't do negatives...</source>
@@ -1119,68 +1169,68 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Sorry, I can't take you there.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybacz, nie mogę Ciebie tam zabrać.</translation>
     </message>
     <message>
         <source>Where do you want to go?</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokąd chcesz się udać?</translation>
     </message>
     <message>
         <source>Could you try rephrasing that?</source>
-        <translation type="unfinished"></translation>
+        <translation>Czy mógłbyś sformułować to inaczej?</translation>
     </message>
     <message>
         <source>
 By the way, some of my features are disabled when editing plain text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Niektóre funkcje są niedostępne podczas edycji zwykłego tekstu.</translation>
     </message>
     <message>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>domyślny</translation>
     </message>
     <message>
         <source>Heading 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nagłówek 1</translation>
     </message>
     <message>
         <source>Heading 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Nagłówek 2</translation>
     </message>
     <message>
         <source>Heading 3</source>
-        <translation type="unfinished"></translation>
+        <translation>Nagłówek 3</translation>
     </message>
     <message>
         <source>Heading 4</source>
-        <translation type="unfinished"></translation>
+        <translation>Nagłówek 4</translation>
     </message>
     <message>
         <source>Heading 5</source>
-        <translation type="unfinished"></translation>
+        <translation>Nagłówek 5</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Tytuł</translation>
     </message>
     <message>
         <source>Subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Podtytuł</translation>
     </message>
     <message>
         <source>Emphasis</source>
-        <translation type="unfinished"></translation>
+        <translation>Pochylony</translation>
     </message>
     <message>
         <source>Strong</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogrubiony</translation>
     </message>
     <message>
         <source>Quote</source>
-        <translation type="unfinished"></translation>
+        <translation>Cytat</translation>
     </message>
     <message>
         <source>Reference</source>
-        <translation type="unfinished"></translation>
+        <translation>KAPITALIKI</translation>
     </message>
     <message>
         <source>Book Title</source>
@@ -1188,132 +1238,133 @@ By the way, some of my features are disabled when editing plain text.</source>
     </message>
     <message>
         <source>Update style</source>
-        <translation type="unfinished"></translation>
+        <translation>Zastosuj styl</translation>
     </message>
     <message>
         <source>Update style to match selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Zastosuj styl do zaznaczenia</translation>
     </message>
     <message>
         <source>Restore default styles</source>
-        <translation type="unfinished"></translation>
+        <translation>Przywróć style domyślne</translation>
     </message>
     <message>
         <source>
 `Put your comment here`</source>
-        <translation type="unfinished"></translation>
+        <translation>
+`Wprowadź swój komentarz tutaj`</translation>
     </message>
     <message>
         <source>: Put your comment here`</source>
-        <translation type="unfinished"></translation>
+        <translation>: Wprowadź swój komentarz tutaj`</translation>
     </message>
     <message>
         <source>Spectrum is AutoSaving this document.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spectrum automatycznie zapisuje dokument.</translation>
     </message>
     <message>
         <source>This document is ReadOnly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ten dokument jest "tylko do odczytu".</translation>
     </message>
     <message>
         <source>Sorry, there was an error saving your document. ANY CHANGES MADE TO THIS DOCUMENT WILL BE LOST.</source>
-        <translation type="unfinished"></translation>
+        <translation>Przepraszamy, nastąpił błąd w zapisie tego dokumentu. WSZELKIE ZMIANY ZOSTANĄ PORZUCONE></translation>
     </message>
     <message>
         <source>Unsupported format</source>
-        <translation type="unfinished"></translation>
+        <translation>Niewspierany format pliku</translation>
     </message>
     <message>
         <source>O20 only supports ODT and HTML, which most word processors (Office365, Office Online, Google Docs, and LibreOffice) support. Try converting this document into one of these formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>O20 obsługuje jedynie dokumenty ODT i HTML (podobnie do Office365, Office Online, Dokumentów Google oraz LibreOffice). Należy przekształcić ten dokument do jednego z powyższych formatów.</translation>
     </message>
     <message>
         <source>Remove from List</source>
-        <translation type="unfinished"></translation>
+        <translation>Usuń z Listy</translation>
     </message>
     <message>
         <source>Chapter</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozdział</translation>
     </message>
     <message>
         <source>Introduction</source>
-        <translation type="unfinished"></translation>
+        <translation>Wprowadzenie</translation>
     </message>
     <message>
         <source>Conclusion</source>
-        <translation type="unfinished"></translation>
+        <translation>Podsumowanie</translation>
     </message>
     <message>
         <source>This document has no headings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ten dokument nie posiada nagłówków.</translation>
     </message>
     <message>
         <source>Unsaved document</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokument niezapisany</translation>
     </message>
     <message>
         <source>Sure you want to exit?</source>
-        <translation type="unfinished"></translation>
+        <translation>Czy na pewno opuścić program?</translation>
     </message>
     <message>
         <source>This document hasn't been saved yet, so I couldn't AutoSave it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokument nie został jeszcze zapisany, nie można wykonać automatycznego zapisu.</translation>
     </message>
     <message>
         <source>I haven't been AutoSaving this document. If you exit now, all changes will be lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokument nie został automatycznie zapisany. Jeśli opuścisz program, wszelkie zmiany zostaną utracone.</translation>
     </message>
     <message>
         <source>  (ReadOnly)</source>
-        <translation type="unfinished"></translation>
+        <translation>  (Tylko do odczytu)</translation>
     </message>
     <message>
         <source> (Code)</source>
-        <translation type="unfinished"></translation>
+        <translation> (Kod)</translation>
     </message>
     <message>
         <source>  (AutoSave)</source>
-        <translation type="unfinished"></translation>
+        <translation>  (Zapis automatyczny)</translation>
     </message>
     <message>
         <source> - Word</source>
-        <translation type="unfinished"></translation>
+        <translation> - Word</translation>
     </message>
     <message>
         <source> - Saved to your Linux PC</source>
-        <translation type="unfinished"></translation>
+        <translation> - Zapisano na komputerze</translation>
     </message>
     <message>
         <source> - Modified</source>
-        <translation type="unfinished"></translation>
+        <translation> - Zmodyfikowano</translation>
     </message>
     <message>
         <source>About O20 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>O O20 %1</translation>
     </message>
     <message>
         <source>%1 pages    %2 words  </source>
-        <translation type="unfinished"></translation>
+        <translation>%1 stron    %2 słów  </translation>
     </message>
     <message>
         <source>Welcome back, %1!</source>
-        <translation type="unfinished"></translation>
+        <translation>Witaj ponownie, %1!</translation>
     </message>
     <message>
         <source>Your document has been AutoSaved to &lt;span style='font-family: Ubuntu'>%1&lt;/span>.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokument został automatycznie zapisany jako &lt;span style='font-family: Ubuntu'>%1&lt;/span>.</translation>
     </message>
     <message>
         <source> Browse </source>
-        <translation type="unfinished"></translation>
+        <translation> Przeglądaj </translation>
     </message>
     <message>
         <source> Headings </source>
-        <translation type="unfinished"></translation>
+        <translation> Nagłówki </translation>
     </message>
     <message>
         <source> Comments </source>
-        <translation type="unfinished"></translation>
+        <translation> Komentarze </translation>
     </message>
     <message>
         <source>Built with Qt %1</source>
@@ -1321,15 +1372,15 @@ By the way, some of my features are disabled when editing plain text.</source>
     </message>
     <message>
         <source>This is O20.</source>
-        <translation type="unfinished"></translation>
+        <translation>To jest O20.</translation>
     </message>
     <message>
         <source>The document %1 appears to be a Microsoft %2 document.</source>
-        <translation>Wygląd na to, że dokument %1 jest dokumentem utworzonym przez program Microsoft %2</translation>
+        <translation>Wygląda na to, że dokument %1 został utworzony przez program Microsoft %2</translation>
     </message>
     <message>
         <source>Translate O20</source>
-        <translation type="unfinished"></translation>
+        <translation>Tłumacz O20</translation>
     </message>
 </context>
 </TS>
