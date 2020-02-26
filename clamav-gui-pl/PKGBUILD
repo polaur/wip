@@ -1,0 +1,35 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+
+pkgname=clamav-gui
+_pkgname=ClamAV-GUI
+pkgver=0.4.1
+pkgrel=1
+pkgdesc='Front-end for ClamAV'
+arch=('x86_64')
+url='https://www.opendesktop.org/p/1127892/'
+license=('GPL3')
+depends=('qt5-base' 'hicolor-icon-theme')
+makedepends=()
+optdepends=('clamav: For functionality')
+
+source=("170782-ClamAV-GUI-0.4.1.tgz"
+		"clamav-gui-pl_PL.ts")
+sha512sums=('2f289a1ec91bd56a440ad749bd2e42a3b5d21859d35c2079517ad707fa402ace917cfe5b0c858833bc554015a47efa60cb8e0b69a0efce06350814cd30abc430'
+            '615a3f8c743ba550456ea65a1bc7e1bcb7f0a22c24b5f0d0419714349dff37d08c1dede933b8384ca1b93ea7637145297dfa3ca2752856939a83ada2660e2ade')
+
+prepare() {
+	cp ../clamav-gui-pl_PL.ts "${srcdir}/${_pkgname}/translations/"
+	sed -i 's/clamav-gui-da_DK.ts/clamav-gui-da_DK.tk \\\ntranslations\/clamav-gui-pl_PL.tk/g' "${srcdir}/${_pkgname}/clamav-gui.pro"
+	sed -i 's/clamav-gui-da_DK.qm/clamav-gui-da_DK.qm translations\/clamav-gui-pl_PL.qm/g' "${srcdir}/${_pkgname}/clamav-gui.pro"
+}
+
+build() {
+  cd $_pkgname
+  qmake PREFIX=/usr clamav-gui.pro
+  make
+}
+
+package() {
+  cd $_pkgname
+  make INSTALL_ROOT="$pkgdir" install
+}
