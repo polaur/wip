@@ -1,0 +1,39 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# Contributor: Damian N. <nycko123 at gmail>
+
+pkgname=tweeeditor
+_realname=TweeEditor
+pkgver=1.0.3pre1
+pkgrel=2
+pkgdesc="Simple text editor"
+arch=('x86_64')
+url="https://github.com/TweeChalice/TweeEditor"
+license=('MPL')
+depends=(qt5-base)
+makedepends=(qt5-tools)
+source=("https://github.com/TweeChalice/TweeEditor/archive/v1.0.3pre1.tar.gz"
+		"TweeSimpleEdit_pl_PL.ts"
+		"TweeSimpleEdit_pl_PL.qm")
+sha256sums=('6e7db46b1ea5a03e42eb68a86c18c5b9d2b238739b2a96921ed6715021c5920e'
+            'a24d09005685f2b066fe44189b18a0b99b49adf0fbbb30701faea51904df750b'
+            'a351e2196713ee02b6c524878c195cbf48a2fc92267ab0b1fc58a263a7c268cc')
+
+prepare() {
+	cp ../TweeSimpleEdit_pl_PL.{ts,qm} "${srcdir}/${_realname}-${pkgver}/"
+	sed -i 's/TweeSimpleEdit_zh_CN.ts/TweeSimpleEdit_zh_CN.ts \\\n\tTweeSimpleEdit_pl_PL.ts/g' "${srcdir}/${_realname}-${pkgver}/TweeEdit.pro"
+}
+
+#pkgver() {
+#  cd "${_gitname}"
+#  printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+#}
+
+build() {
+    cd TweeEditor-1.0.3pre1
+        qmake PREFIX=/usr
+    make
+}
+
+package() {
+    install -Dm755 "$srcdir/TweeEditor-1.0.3pre1/TweeEdit" "$pkgdir/usr/bin/tweeeditor"
+}

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
-<TS version="2.1" language="zh_CN">
+<TS version="2.1" language="pl PL">
 <context>
     <name>MainWindow</name>
     <message>
@@ -74,22 +74,22 @@
     <message>
         <location filename="mainwindow_oncreate.cpp" line="53"/>
         <source>Ctrl+W</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <location filename="mainwindow_oncreate.cpp" line="54"/>
         <source>Ctrl+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Q</translation>
     </message>
     <message>
         <location filename="mainwindow_oncreate.cpp" line="56"/>
         <source>Alt+T</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+T</translation>
     </message>
     <message>
         <location filename="mainwindow_oncreate.cpp" line="57"/>
         <source>Alt+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+N</translation>
     </message>
     <message>
         <location filename="mainwindow_oncreate.cpp" line="60"/>
@@ -189,11 +189,11 @@
     <message>
         <location filename="mainwindow_slots_edit.cpp" line="50"/>
         <source>untitled-%1</source>
-        <translation type="unfinished"></translation>
+        <translation>bez-tytułu-%1</translation>
     </message>
     <message>
         <location filename="mainwindow_slots_edit.cpp" line="62"/>
-        <source>Select a documnet</source>
+        <source>Select a document</source>
         <translation>Wybierz dokument</translation>
     </message>
     <message>
@@ -201,17 +201,17 @@
         <location filename="mainwindow_slots_edit.cpp" line="177"/>
         <location filename="special_events.cpp" line="27"/>
         <source>All files (*.*)</source>
-        <translation>Wszystkie plik (*.*)</translation>
+        <translation>Wszystkie pliki (*.*)</translation>
     </message>
     <message>
         <location filename="mainwindow_slots_edit.cpp" line="72"/>
         <source>Open failed!</source>
-        <translation>Nie powiodło się otwarcie dokumentu</translation>
+        <translation>Otwarcie dokumentu nie powiodło się!</translation>
     </message>
     <message>
         <location filename="mainwindow_slots_edit.cpp" line="73"/>
         <source>Can't open this file.</source>
-        <translation>Nie można otworzyć pliku</translation>
+        <translation>Nie można otworzyć pliku.</translation>
     </message>
     <message>
         <location filename="mainwindow_slots_edit.cpp" line="116"/>
@@ -219,7 +219,7 @@
         <location filename="special_events.cpp" line="36"/>
         <location filename="special_events.cpp" line="76"/>
         <source>Can't save this file.</source>
-        <translation>Nie można zapisać pliku</translation>
+        <translation>Nie można zapisać pliku.</translation>
     </message>
     <message>
         <location filename="mainwindow_slots_edit.cpp" line="129"/>
@@ -240,13 +240,13 @@ Chcesz go zachować?</translation>
         <location filename="mainwindow_slots_edit.cpp" line="162"/>
         <location filename="special_events.cpp" line="117"/>
         <source>You have just closed a text document!</source>
-        <translation>Dokument został zamknięty</translation>
+        <translation>Dokument tekstowy został zamknięty!</translation>
     </message>
     <message>
         <location filename="mainwindow_slots_edit.cpp" line="177"/>
         <location filename="special_events.cpp" line="27"/>
         <source>Save this text</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisz plik</translation>
     </message>
     <message>
         <location filename="special_events.cpp" line="95"/>
@@ -268,7 +268,7 @@ Chcesz je zapisać?</translation>
     <message>
         <location filename="FindDialog.cpp" line="18"/>
         <source>Cancel</source>
-        <translation>Porzuć</translation>
+        <translation>Anuluj</translation>
     </message>
     <message>
         <location filename="FindDialog.cpp" line="19"/>
@@ -294,12 +294,12 @@ Chcesz je zapisać?</translation>
     <message>
         <location filename="FindDialog.cpp" line="24"/>
         <source>&amp;Find word incasesensitively</source>
-        <translation type="unfinished"></translation>
+        <translation>Szukaj ignorując wielkość liter</translation>
     </message>
     <message>
         <location filename="FindDialog.cpp" line="25"/>
         <source>&amp;Find word casesensitively</source>
-        <translation type="unfinished"></translation>
+        <translation>Szukaj rozróżniając wielkość liter</translation>
     </message>
     <message>
         <location filename="FindDialog.cpp" line="28"/>
@@ -309,7 +309,7 @@ Chcesz je zapisać?</translation>
     <message>
         <location filename="FindDialog.cpp" line="36"/>
         <source>Expanded finding options</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozszerzone opcje wyszukiwania</translation>
     </message>
     <message>
         <location filename="FindDialog.cpp" line="47"/>
@@ -324,7 +324,7 @@ Chcesz je zapisać?</translation>
     <message>
         <location filename="FindDialog.cpp" line="82"/>
         <source>There's no string named &lt;b>%1&lt;/b></source>
-        <translation type="unfinished"></translation>
+        <translation>Nie znaleziono ciągu &lt;b>%1&lt;/b></translation>
     </message>
 </context>
 <context>
@@ -332,17 +332,17 @@ Chcesz je zapisać?</translation>
     <message>
         <location filename="tweefirstusedialog.cpp" line="28"/>
         <source>I have read this CAREFULLY and agree with it</source>
-        <translation type="unfinished"></translation>
+        <translation>Przyczytałem DOKŁADNIE i zgadzam się</translation>
     </message>
     <message>
         <location filename="tweefirstusedialog.cpp" line="29"/>
         <source>I DO NOT accept this license and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>NIE AKCEPTUJĘ tej licencji i wychodzę</translation>
     </message>
     <message>
         <location filename="tweefirstusedialog.cpp" line="30"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <location filename="tweefirstusedialog.cpp" line="31"/>
@@ -362,7 +362,7 @@ Chcesz je zapisać?</translation>
     <message>
         <location filename="tweefirstusedialog.cpp" line="83"/>
         <source>Error preparing data!</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd w przygotowaniu danych!</translation>
     </message>
 </context>
 </TS>
