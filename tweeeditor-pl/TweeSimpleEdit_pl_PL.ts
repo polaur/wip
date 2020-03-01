@@ -347,7 +347,7 @@ Chcesz je zapisać?</translation>
     <message>
         <location filename="tweefirstusedialog.cpp" line="31"/>
         <source>Cancel (Exit)</source>
-        <translation>Zakończ</translation>
+        <translation>Zakończ (Wyjdź))</translation>
     </message>
     <message>
         <location filename="tweefirstusedialog.cpp" line="44"/>
