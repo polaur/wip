@@ -1,4 +1,5 @@
 #!/bin/bash
+# uruchamiać w głównym katalogu danego repozytorium
 
 find ${PWD} -mindepth 1 -maxdepth 1 -type d ! -iname ".git" | sort > /tmp/srcinfo
 while IFS= read -r line || [[ "$line" ]]; do 
